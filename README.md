@@ -1,26 +1,141 @@
-# Exploratory-Data-Analysis-of-churn-dataset
 
-# PROBLEM
 
-Orange S.A is a French MNC telecommunications corporation with many different customer subscribed to its services and key task is to find the causes that influence customers to churn and suggesting the factors for retention of customers. In this EDA project, we were provided with Orange`s Telecom churn dataset which consists of various details about area, account, calls and minutes etc. 
+<h1 align="center"> Telecom Churn Analysis
+ </h1>
 
-# APPROACH
+<h3 align="center"> AlmaBetter Verfied Project - <a href="https://www.almabetter.com/"> AlmaBetter School </a> </h5>
 
-Initially, we imported the data set and carried out the descriptive analysis over the data set to understand the information of data available.
+![telcom](https://user-images.githubusercontent.com/95616692/167258167-901f3de8-0bd5-46ea-ada1-d04ecf985cac.png)
 
-Checking for missing and duplication of values in the data set provided.
 
-Analyzing the all the variables of the data set (such as Area-code, Account, Plan, Calls, Minutes, Charges etc) with respect to churn data, to determine the possibilities and factors for Churn.
+<p> </p>
 
-Used data visualization with different kind plots to explore the correlation with churn and different variables.
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
-Predicted and explored some factors that are influencing customer to churn.
+<h2> :floppy_disk: Table of Content</h2>
 
-# CONCLUSION
-Some states have higher churn rate compared to other, for which network issues might be the reason so it is recommended that company should increase the coverage area and solve the network problems in local as well as international level.
+  * [Introduction](#Introduction)
+  * [Abstract](#Abstract)
+  * [Dataset Information](#dataset-information)
+  * [Problem Statement](#Problem-Statement)
+  * [Conclusion](#Conclusion)
 
-Area, account length, evening & night calls has no relation with churn rate but the churn rate increases as the number of call to the customer service center increases so its evident that company must provide good customer service and resolution to customers to prevent churn by gathering feedback.
 
-Customers with international plan has higher churn rate compared to customers without international plan the reason could be high tariff cost or network issues so company should work on these factors and provide lower or competitive international plans and coverage.
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
-Customers with voicemails more than 20 (approx.) and customers with higher day call min`s has higher churn rate compared to others so company should focus on providing discounts or offers, also they can offer customized service with different plans based on customer needs.
+
+<h2> :book: Introduction:</h2>
+
+* In the telecommunication industry, the main profit comes from the service provided to customers with their plans and features.
+
+* This EDA will use Python libraries, matplotlib, and Seaborn to examine the Telecom dataset through visualizations and graphs. 
+
+* Orange SA telecommunication dataset contains Area Code and International Plan.
+
+* If a consumer unsubscribes a membership with one company and becomes a customer of another company, this customer is known as a Churn customer.
+
+* Our major goal in this project is to identify reasons for customer chrun by doing analysis features such as the plans, which in our case is a brief summary description of the customer plans.
+
+
+![image](https://user-images.githubusercontent.com/95616692/167260084-61a6c20c-fe81-45c4-8f8d-f668f18a4b4e.png)
+
+
+
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
+
+<h2> :book: Abstract:</h2>
+
+* The objective was to anticipate bunches of comparable substance by matching text-based elements.
+
+* Exploratory Data Analysis is done on the dataset to get the insights from the information however the principal invalid qualities are taken care of. Likewise, some hypothesis testing was additionally performed from the experiences from EDA.
+
+* After that description segment is our objective variable must be highlighted where NLP activities are performed on it and after that vectorized by utilizing TFIDF. 
+
+* From that point forward, all that was left was to track down the clusters and fit our models by knowing various clusters, and further, the model is assessed utilizing the metrics.
+
+
+
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
+
+<h2> :book: Dataset information:</h2>
+
+
+* Show id: Unique ID for every Movie / Tv Show
+
+
+* type – Identifier - A Movie or TV Show
+
+
+* title – Title of the Movie / Tv Show
+
+
+* director-director of the content
+
+
+* cast –Actors involved in the movie / show
+
+
+* country – Country where the movie / show was produced
+
+
+* date added – Date it was added on Netflix
+
+
+* release year – Actual Release year of the movie / show
+
+
+* rating – TV Rating of the movie / show
+
+
+* duration – Total Duration - in minutes or number of seasons
+
+
+* listed in – genre 
+
+
+* description – The Summary description
+
+
+
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
+<h2> :book: Problem Statement:</h2>
+
+* This dataset consists of TV shows and movies available on Netflix as of 2019. 
+
+* The dataset is collected from Flexible which is a third-party Netflix search engine
+
+* In 2018, they released an interesting report which shows that the number of TV shows on Netflix has nearly tripled since 2010.
+
+* The streaming service’s number of movies has decreased by more than 2,000 titles since 2010, while its number of TV shows has nearly tripled. 
+
+* It will be interesting to explore what all other insights can be obtained from the same dataset.
+
+* Integrating this dataset with other external datasets such as IMDB ratings, rotten tomatoes can also provide many interesting findings.
+
+
+
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
+<h2> :book: Conclusion:</h2>
+
+* Our main goal in this project was to determine different clusters based on content, which we have done.
+
+* After using the Silhouette score and the elbow method, we found that 28 clusters would be suitable.
+
+* which we evaluated using the Davies-Bouldin index and the Calinski-Harabasz score.
+
+* Our clusters were homogeneous within clusters and heterogeneous with respect to other clusters.
+
+
+
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
+* Ppt Presentation Link:-https://drive.google.com/file/d/1jvRgL4MaxtfirqGdBOTdmA62WMWgyWRS/view?usp=sharing
+
+
+
+
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
