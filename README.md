@@ -46,13 +46,13 @@
 
 <h2> :book: Abstract:</h2>
 
-* The objective was to anticipate bunches of comparable substance by matching text-based elements.
+* The objective was to anticipate the factors behind the customer churn from service of the telecom .
 
-* Exploratory Data Analysis is done on the dataset to get the insights from the information however the principal invalid qualities are taken care of. Likewise, some hypothesis testing was additionally performed from the experiences from EDA.
+* Exploratory Data Analysis is done on the dataset to get the insights from the information however the principal invalid qualities are taken care of. Likewise, some data comparison and descriptive was additionally performed from the experiences from EDA.
 
-* After that description segment is our objective variable must be highlighted where NLP activities are performed on it and after that vectorized by utilizing TFIDF. 
+* After that using the Data visualisation analyzed the relationship between different variables with respect to Target variable to obtain and understand various factors. 
 
-* From that point forward, all that was left was to track down the clusters and fit our models by knowing various clusters, and further, the model is assessed utilizing the metrics.
+* From that point forward, all that was left was to plot the graphs and understand the hidden informations, and further, concluded with many recommendation and insights.
 
 
 
@@ -62,40 +62,42 @@
 <h2> :book: Dataset information:</h2>
 
 
-* Show id: Unique ID for every Movie / Tv Show
+* **State:** States name in code.
 
 
-* type – Identifier - A Movie or TV Show
+* **Account Length:** Active period of Account
 
 
-* title – Title of the Movie / Tv Show
+
+* **Area Code:** Area code having States
 
 
-* director-director of the content
+* **International Plan:** Yes: indicates active international plan user and, No: indicates inactive international plan user.
 
 
-* cast –Actors involved in the movie / show
+* **Voice Mail Plan:** Yes: indicates Active voice mail plan user, No: indicates inactive voice mail, plan user.
 
 
-* country – Country where the movie / show was produced
+* **Number of vmail messages:** Number of voice mail Messages
 
 
-* date added – Date it was added on Netflix
+* **Total day minutes:** Total number of minutes usage in the morning
 
 
-* release year – Actual Release year of the movie / show
+* **Total intl charge:** Total charge for all the international calls.
 
 
-* rating – TV Rating of the movie / show
+* **Customer service calls:** Number of customer service calls made by the customer
 
 
-* duration – Total Duration - in minutes or number of seasons
+* **Total intl minutes:** Total Number of minutes usage in international calls.
 
 
-* listed in – genre 
+* **Total intl calls:** Total number of calls made internationally.
 
 
-* description – The Summary description
+* **Churn customer:** True : churned customer OR False:  retained custome
+
 
 
 
@@ -103,17 +105,15 @@
 
 <h2> :book: Problem Statement:</h2>
 
-* This dataset consists of TV shows and movies available on Netflix as of 2019. 
+* This dataset consists of customer usage information of telecom service provider of Orange SA. 
 
-* The dataset is collected from Flexible which is a third-party Netflix search engine
+* The dataset is collected from  Orange SA which is a France based Telecom company.
 
-* In 2018, they released an interesting report which shows that the number of TV shows on Netflix has nearly tripled since 2010.
+* The dataset consists the information of customers and details of usage like plans, account, subscriptions etc.
 
-* The streaming service’s number of movies has decreased by more than 2,000 titles since 2010, while its number of TV shows has nearly tripled. 
+* The task was to understand the data and identify the factors behind the customer churn and predict the customer behaviour. 
 
 * It will be interesting to explore what all other insights can be obtained from the same dataset.
-
-* Integrating this dataset with other external datasets such as IMDB ratings, rotten tomatoes can also provide many interesting findings.
 
 
 
@@ -121,19 +121,22 @@
 
 <h2> :book: Conclusion:</h2>
 
-* Our main goal in this project was to determine different clusters based on content, which we have done.
+* Our main goal in this project was to determine different affecting to churn, which we have done.
 
-* After using the Silhouette score and the elbow method, we found that 28 clusters would be suitable.
+* After using the Exploratory data analysis and the elbow method, we found that 28 clusters would be suitable.
 
-* which we evaluated using the Davies-Bouldin index and the Calinski-Harabasz score.
+* From data visualization, found that Customers with the international plan have a higher churn rate compared to customers without an international plan .
 
-* Our clusters were homogeneous within clusters and heterogeneous with respect to other clusters.
+* The telecommunication industry can avoid churn by such analysis and predicting factors for customer churn.
+
+* This type of EDA research in the telecom segment helps companies to gain more profit. Predicting churn is a very important factor for telecom companies
+
 
 
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
-* Ppt Presentation Link:-https://drive.google.com/file/d/1jvRgL4MaxtfirqGdBOTdmA62WMWgyWRS/view?usp=sharing
+* Ppt Presentation Link:-https://drive.google.com/file/d/1L2F4PSKJJCFTdGtV1Wf1lRPkTkXSgv-9/view?usp=sharing
 
 
 
